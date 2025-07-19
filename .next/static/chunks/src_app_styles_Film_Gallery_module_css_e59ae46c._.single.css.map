@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/app/styles/Film_Gallery.module.css"],"sourcesContent":[".gallery {\n  display: grid;\n  grid-template-columns: 1fr 1fr 1fr;\n  column-gap: 30px;\n  width: 75vw;\n}\n\n.galleryTile {\n  width: 100%;\n  height: auto;\n}\n\n.imgContainer {\n  width: calc(75vw / 3);\n  height: calc(75vw / 3);\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  overflow: hidden;\n}\n\n.filmImg {\n  width: auto;\n  aspect-ratio: 1 / 1;\n  object-fit: cover;\n  object-position: top;\n  overflow: hidden;\n}\n\n.filmTitle {\n  text-align: center;\n}\n"],"names":[],"mappings":"AAAA;;;;;;;AAOA;;;;;AAKA;;;;;;;;;AASA;;;;;;;;AAQA"}}]
+}

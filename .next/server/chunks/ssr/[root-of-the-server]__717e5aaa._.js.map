@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 17, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/app/page.module.css [app-rsc] (css module)"],"sourcesContent":["__turbopack_context__.v({\n  \"logo\": \"page-module___8aEwW__logo\",\n  \"main\": \"page-module___8aEwW__main\",\n  \"page\": \"page-module___8aEwW__page\",\n});\n"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA"}},
+    {"offset": {"line": 26, "column": 0}, "map": {"version":3,"sources":["file:///Users/davidpbuckley/Projects/tysondonnelly_com/src/app/page.tsx"],"sourcesContent":["import Image from \"next/image\";\nimport styles from \"./page.module.css\";\nimport Film_Gallery from \"./components/Film_Gallery\";\n\nexport default function Home() {\n  return (\n    <div className={styles.page}>\n      <main className={styles.main}>\n        <img className={styles.logo} src=\"/TD_logo2.svg\" alt=\"TD logo\" />\n        <Film_Gallery />\n      </main>\n      <footer className={styles.footer}>\n        <p>Tyson Donnelly</p>\n      </footer>\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;AACA;;;;;;;;;AAGe,SAAS;IACtB,qBACE,8OAAC;QAAI,WAAW,8HAAA,CAAA,UAAM,CAAC,IAAI;;0BACzB,8OAAC;gBAAK,WAAW,8HAAA,CAAA,UAAM,CAAC,IAAI;;kCAC1B,8OAAC;wBAAI,WAAW,8HAAA,CAAA,UAAM,CAAC,IAAI;wBAAE,KAAI;wBAAgB,KAAI;;;;;;kCACrD,8OAAC;;;;;;;;;;;0BAEH,8OAAC;gBAAO,WAAW,8HAAA,CAAA,UAAM,CAAC,MAAM;0BAC9B,cAAA,8OAAC;8BAAE;;;;;;;;;;;;;;;;;AAIX","debugId":null}}]
+}

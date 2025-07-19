@@ -1,0 +1,45 @@
+.about {
+  display: flex;
+  padding: 0 5rem;
+  align-items: center;
+}
+
+.aboutPara {
+  margin: 2rem;
+}
+
+.about h1,
+.contact h2 {
+  font-weight: 800;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 3rem;
+}
+
+.headshot {
+  width: 45vw;
+  height: auto;
+}
+
+.contact {
+  align-self: start;
+  margin: 5rem;
+}
+
+.contact ul {
+  list-style-type: none;
+}
+
+.contact li {
+  display: flex;
+  margin: 1.25rem 0.8rem;
+}
+
+.contact a {
+  text-decoration: underline;
+  margin: 0 0.5rem;
+}
+
+.contactIcons {
+  height: 2em;
+  margin: 0 0.5rem;
+}

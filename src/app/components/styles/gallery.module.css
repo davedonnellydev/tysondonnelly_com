@@ -1,0 +1,33 @@
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+  column-gap: 30px;
+  width: 100%;
+}
+
+.galleryTile {
+  width: 100%;
+  height: auto;
+}
+
+.imgContainer {
+  width: calc(75vw / 3);
+  height: calc(75vw / 3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.filmImg {
+  width: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: top;
+  overflow: hidden;
+}
+
+.filmTitle {
+  text-align: center;
+  margin: 0.3rem 0 1.5rem 0;
+}

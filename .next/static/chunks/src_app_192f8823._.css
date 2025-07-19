@@ -1,0 +1,47 @@
+/* [project]/src/app/page.module.css [app-client] (css) */
+.page-module___8aEwW__page {
+  color: #575757;
+  font-family: Poppins, sans-serif;
+}
+
+.page-module___8aEwW__main {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+/* [project]/src/app/styles/gallery.module.css [app-client] (css) */
+.gallery-module__aQechG__gallery {
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 30px;
+  width: 75vw;
+  display: grid;
+}
+
+.gallery-module__aQechG__galleryTile {
+  width: 100%;
+  height: auto;
+}
+
+.gallery-module__aQechG__imgContainer {
+  justify-content: center;
+  align-items: center;
+  width: 25vw;
+  height: 25vw;
+  display: flex;
+  overflow: hidden;
+}
+
+.gallery-module__aQechG__filmImg {
+  aspect-ratio: 1;
+  object-fit: cover;
+  object-position: top;
+  width: auto;
+  overflow: hidden;
+}
+
+.gallery-module__aQechG__filmTitle {
+  text-align: center;
+}
+
+/*# sourceMappingURL=src_app_192f8823._.css.map*/

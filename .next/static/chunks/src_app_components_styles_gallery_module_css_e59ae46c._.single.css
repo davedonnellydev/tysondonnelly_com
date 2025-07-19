@@ -1,0 +1,36 @@
+/* [project]/src/app/components/styles/gallery.module.css [app-client] (css) */
+.gallery-module__QTcrpq__gallery {
+  grid-template-columns: repeat(3, 3fr);
+  column-gap: 30px;
+  width: 100%;
+  display: grid;
+}
+
+.gallery-module__QTcrpq__galleryTile {
+  width: 100%;
+  height: auto;
+}
+
+.gallery-module__QTcrpq__imgContainer {
+  justify-content: center;
+  align-items: center;
+  width: 25vw;
+  height: 25vw;
+  display: flex;
+  overflow: hidden;
+}
+
+.gallery-module__QTcrpq__filmImg {
+  aspect-ratio: 1;
+  object-fit: cover;
+  object-position: top;
+  width: auto;
+  overflow: hidden;
+}
+
+.gallery-module__QTcrpq__filmTitle {
+  text-align: center;
+  margin: .3rem 0 1.5rem;
+}
+
+/*# sourceMappingURL=src_app_components_styles_gallery_module_css_e59ae46c._.single.css.map*/
