@@ -2,6 +2,7 @@ import mainstyles from "../page.module.css";
 import styles from "./about.module.css";
 import Header from "../components/header";
 import Footer from "../components/footer";
+import Link from "next/link";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faImdb, faLinkedin } from "@fortawesome/free-brands-svg-icons";
@@ -13,12 +14,17 @@ export default function About() {
       <Header />
       <main className={mainstyles.main}>
         <section className={styles.about}>
-          <img src="./headshot_BW.jpg" className={styles.headshot} />
+          <img
+            src="./headshot_BW.jpg"
+            className={styles.headshot}
+            alt="A black and white photo of Tyson Donnelly smiling to camera"
+          />
           <div className={styles.aboutPara}>
             <h1>About</h1>
             <p>
-              I'm a VFX and Compositing Supervisor based in Sydney. I'm
-              experienced in both client and vendor side VFX show delivery.
+              I&apos;m a VFX and Compositing Supervisor based in Sydney.
+              I&apos;m experienced in both client and vendor side VFX show
+              delivery.
             </p>
           </div>
         </section>
@@ -28,9 +34,9 @@ export default function About() {
             <li>
               <FontAwesomeIcon icon={faImdb} className={styles.contactIcons} />{" "}
               -{" "}
-              <a href="http://www.imdb.com/name/nm4286541/" target="_blank">
+              <Link href="http://www.imdb.com/name/nm4286541/" target="_blank">
                 imdb.com
-              </a>
+              </Link>
             </li>
             <li>
               <FontAwesomeIcon
@@ -38,18 +44,18 @@ export default function About() {
                 className={styles.contactIcons}
               />{" "}
               -{" "}
-              <a
+              <Link
                 href="https://www.linkedin.com/in/tyson-donnelly-66aa3a35"
                 target="_blank"
               >
                 linkedin.com
-              </a>
+              </Link>
             </li>
             <li>
               <FontAwesomeIcon icon={faAt} className={styles.contactIcons} /> -{" "}
-              <a href="mailto:tysondonnelly@gmail.com" target="_blank">
+              <Link href="mailto:tysondonnelly@gmail.com" target="_blank">
                 tysondonnelly@gmail.com
-              </a>
+              </Link>
             </li>
           </ul>
         </section>

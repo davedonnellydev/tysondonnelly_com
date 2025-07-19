@@ -1,4 +1,5 @@
 import styles from "./styles/header.module.css";
+import Link from "next/link";
 
 export default function Header() {
   return (
@@ -9,10 +10,10 @@ export default function Header() {
       <nav className={styles.navbar}>
         <ul>
           <li>
-            <a href="/">WORK</a>
+            <Link href="/">WORK</Link>
           </li>
           <li>
-            <a href="/about">ABOUT & CONTACT</a>
+            <Link href="/about">ABOUT & CONTACT</Link>
           </li>
         </ul>
       </nav>
