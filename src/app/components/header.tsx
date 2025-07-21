@@ -4,9 +4,9 @@ import Link from "next/link";
 export default function Header() {
   return (
     <header className={styles.header}>
-      <div className={styles.logo}>
+      <Link className={styles.logoLink} href="/">
         <img src="/TD_logo2.svg" alt="TD logo" />
-      </div>
+      </Link>
       <nav className={styles.navbar}>
         <ul>
           <li>

@@ -8,15 +8,13 @@
   margin: 4rem 0;
 }
 
-.logo {
+.logoLink {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 10vw;
   min-width: 100px;
   height: auto;
-  /* -webkit-filter: invert(1);
-  filter: invert(1); */
 }
 
 .navbar {

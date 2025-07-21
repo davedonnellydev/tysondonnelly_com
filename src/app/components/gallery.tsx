@@ -1,5 +1,8 @@
+"use client";
+
 import React from "react";
 import styles from "./styles/gallery.module.css";
+import { useMediaQuery } from "@mui/material";
 
 export default function Film_Gallery() {
   interface Film {
@@ -134,13 +137,28 @@ Then add the new film's info as an object to the top of the film list array belo
       alt: "TVC",
     },
   ];
+
+  const oneColumn = useMediaQuery("(max-width:650px)");
+  const twoColumn = useMediaQuery("(min-width:650px) and (max-width:1220px)");
+  const threeColumn = useMediaQuery("(min-width:1220px)");
+
   let count = 0;
 
   return (
     <div className={styles.gallery}>
       {film_list.map((film, key) => {
         count += 1;
-        if (count > 3) {
+        if (threeColumn) {
+          if (count > 3) {
+            count = 1;
+          }
+        }
+        if (twoColumn) {
+          if (count > 2) {
+            count = 1;
+          }
+        }
+        if (oneColumn) {
           count = 1;
         }
         return (

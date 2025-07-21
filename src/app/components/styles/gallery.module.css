@@ -5,6 +5,28 @@
   width: 100%;
 }
 
+@media screen and (min-width: 650px) and (max-width: 1220px) {
+  .gallery {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .imgContainer {
+    width: calc(75vw / 2);
+    height: calc(75vw / 2);
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .imgContainer {
+    width: 75vw;
+    height: 75vw;
+  }
+}
+
 .galleryTile {
   width: 100%;
   height: auto;
@@ -22,8 +44,8 @@
 }
 
 .imgContainer {
-  width: calc(75vw / 3);
-  height: calc(75vw / 3);
+  width: 300px;
+  height: 300px;
   display: flex;
   align-items: center;
   justify-content: center;
