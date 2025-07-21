@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <Link className={styles.logoLink} href="/">
-        <img src="/TD_logo2.svg" alt="TD logo" />
+        <img src="/TD_logo2.png" alt="TD logo" />
       </Link>
       <nav className={styles.navbar}>
         <ul>
