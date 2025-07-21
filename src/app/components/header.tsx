@@ -10,10 +10,14 @@ export default function Header() {
       <nav className={styles.navbar}>
         <ul>
           <li>
-            <Link href="/">WORK</Link>
+            <Link className={styles.navlink} href="/">
+              WORK
+            </Link>
           </li>
           <li>
-            <Link href="/about">ABOUT & CONTACT</Link>
+            <Link className={styles.navlink} href="/about">
+              ABOUT & CONTACT
+            </Link>
           </li>
         </ul>
       </nav>

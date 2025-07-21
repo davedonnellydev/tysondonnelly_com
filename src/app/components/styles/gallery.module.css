@@ -10,6 +10,17 @@
   height: auto;
 }
 
+.imgContainer:hover {
+  padding: 0;
+  box-shadow: 5px 5px 20px lightslategray;
+  border-radius: 3px;
+}
+
+.imgContainer:hover + .filmTitle {
+  font-size: 1.1rem;
+  text-shadow: 5px 5px 20px lightslategray;
+}
+
 .imgContainer {
   width: calc(75vw / 3);
   height: calc(75vw / 3);
@@ -17,6 +28,7 @@
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  padding: 20px;
 }
 
 .filmImg {

@@ -1,0 +1,47 @@
+/* [project]/src/app/about/about.module.css [app-client] (css) */
+.about-module__8TymFG__about {
+  align-items: center;
+  padding: 0 5rem;
+  display: flex;
+}
+
+.about-module__8TymFG__aboutPara {
+  margin: 2rem;
+}
+
+.about-module__8TymFG__about h1, .about-module__8TymFG__contact h2 {
+  font-family: Nunito Sans, sans-serif;
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.about-module__8TymFG__headshot {
+  width: 45vw;
+  height: auto;
+}
+
+.about-module__8TymFG__contact {
+  align-self: start;
+  margin: 5rem;
+}
+
+.about-module__8TymFG__contact ul {
+  list-style-type: none;
+}
+
+.about-module__8TymFG__contact li {
+  margin: 1.25rem .8rem;
+  display: flex;
+}
+
+.about-module__8TymFG__contact a {
+  margin: 0 .5rem;
+  text-decoration: underline;
+}
+
+.about-module__8TymFG__contactIcons {
+  height: 2em;
+  margin: 0 .5rem;
+}
+
+/*# sourceMappingURL=src_app_about_about_module_css_e59ae46c._.single.css.map*/

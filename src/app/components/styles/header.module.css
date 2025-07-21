@@ -35,3 +35,12 @@
   margin: 2rem;
   list-style: none;
 }
+
+.navlink:hover,
+.navlink:focus {
+  border-bottom: 2px solid rgb(87, 87, 87);
+}
+
+.navlink:active {
+  color: black;
+}
