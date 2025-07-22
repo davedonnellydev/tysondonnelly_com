@@ -41,7 +41,7 @@
 }
 
 .imgContainer:hover + .filmTitle {
-  font-size: 1.1rem;
+  /* font-size: 1.1rem; */
   text-shadow: 5px 5px 20px lightslategray;
 }
 
