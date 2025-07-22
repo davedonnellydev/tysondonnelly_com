@@ -1,5 +1,8 @@
+"use client";
 import styles from "./styles/header.module.css";
 import Link from "next/link";
+
+import Navigation from "./navigation";
 
 export default function Header() {
   return (
@@ -7,20 +10,7 @@ export default function Header() {
       <Link className={styles.logoLink} href="/">
         <img src="/TD_logo2.png" alt="TD logo" />
       </Link>
-      <nav className={styles.navbar}>
-        <ul>
-          <li>
-            <Link className={styles.navlink} href="/">
-              WORK
-            </Link>
-          </li>
-          <li>
-            <Link className={styles.navlink} href="/about">
-              ABOUT & CONTACT
-            </Link>
-          </li>
-        </ul>
-      </nav>
+      <Navigation />
     </header>
   );
 }
