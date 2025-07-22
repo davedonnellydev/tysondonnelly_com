@@ -28,6 +28,9 @@
 }
 
 .galleryTile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 100%;
   height: auto;
 }
@@ -62,6 +65,8 @@
 }
 
 .filmTitle {
+  width: 300px;
   text-align: center;
+  text-wrap: wrap;
   margin: 0.3rem 0 1.5rem 0;
 }
