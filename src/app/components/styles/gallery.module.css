@@ -5,7 +5,7 @@
   width: 100%;
 }
 
-@media screen and (min-width: 650px) and (max-width: 1220px) {
+@media screen and (max-width: 1220px) {
   .gallery {
     grid-template-columns: 1fr 1fr;
   }
@@ -16,16 +16,16 @@
   }
 }
 
-@media screen and (max-width: 650px) {
+/* @media screen and (max-width: 650px) {
   .gallery {
     grid-template-columns: 1fr;
-  }
+  } */
 
-  .imgContainer {
+/* .imgContainer {
     width: 75vw;
     height: 75vw;
   }
-}
+} */
 
 .galleryTile {
   display: flex;

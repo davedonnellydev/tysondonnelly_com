@@ -138,8 +138,8 @@ Then add the new film's info as an object to the top of the film list array belo
     },
   ];
 
-  const oneColumn = useMediaQuery("(max-width:650px)");
-  const twoColumn = useMediaQuery("(min-width:650px) and (max-width:1220px)");
+  //   const oneColumn = useMediaQuery("(max-width:650px)");
+  const twoColumn = useMediaQuery("(max-width:1220px)");
   const threeColumn = useMediaQuery("(min-width:1220px)");
 
   let count = 0;
@@ -158,9 +158,9 @@ Then add the new film's info as an object to the top of the film list array belo
             count = 1;
           }
         }
-        if (oneColumn) {
-          count = 1;
-        }
+        // if (oneColumn) {
+        //   count = 1;
+        // }
         return (
           <div
             key={key}
