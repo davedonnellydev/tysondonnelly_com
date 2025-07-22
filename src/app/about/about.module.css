@@ -1,6 +1,10 @@
-.about {
+.container {
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.about .container {
   display: flex;
-  padding: 0 5rem;
   align-items: center;
 }
 
@@ -16,13 +20,15 @@
 }
 
 .headshot {
-  width: 45vw;
+  width: 650px;
   height: auto;
 }
 
 .contact {
-  align-self: start;
-  margin: 5rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 2rem;
 }
 
 .contact ul {
@@ -42,4 +48,26 @@
 .contactIcons {
   height: 2em;
   margin: 0 0.5rem;
+}
+
+@media screen and (min-width: 650px) and (max-width: 1220px) {
+  .headshot {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .headshot {
+    width: 90vw;
+  }
+  .about .container {
+    flex-direction: column;
+  }
+  .aboutPara {
+    margin: 2rem 0;
+  }
+
+  .aboutPara p {
+    margin: 0.8rem;
+  }
 }
