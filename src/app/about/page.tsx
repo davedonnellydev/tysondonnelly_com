@@ -32,8 +32,7 @@ export default function About() {
           <h2>Contact</h2>
           <ul>
             <li>
-              <FontAwesomeIcon icon={faImdb} className={styles.contactIcons} />{" "}
-              -{" "}
+              <FontAwesomeIcon icon={faImdb} className={styles.contactIcons} />
               <Link href="http://www.imdb.com/name/nm4286541/" target="_blank">
                 imdb.com
               </Link>
@@ -42,8 +41,7 @@ export default function About() {
               <FontAwesomeIcon
                 icon={faLinkedin}
                 className={styles.contactIcons}
-              />{" "}
-              -{" "}
+              />
               <Link
                 href="https://www.linkedin.com/in/tyson-donnelly-66aa3a35"
                 target="_blank"
@@ -52,7 +50,7 @@ export default function About() {
               </Link>
             </li>
             <li>
-              <FontAwesomeIcon icon={faAt} className={styles.contactIcons} /> -{" "}
+              <FontAwesomeIcon icon={faAt} className={styles.contactIcons} />
               <Link href="mailto:tysondonnelly@gmail.com" target="_blank">
                 tysondonnelly@gmail.com
               </Link>
