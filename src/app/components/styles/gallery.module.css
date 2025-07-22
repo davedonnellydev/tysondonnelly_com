@@ -38,7 +38,6 @@
 .imgContainer:hover {
   padding: 0;
   box-shadow: 5px 5px 20px lightslategray;
-  border-radius: 3px;
 }
 
 .imgContainer:hover + .filmTitle {
@@ -62,6 +61,7 @@
   object-fit: cover;
   object-position: top;
   overflow: hidden;
+  border-radius: 3px;
 }
 
 .filmTitle {
