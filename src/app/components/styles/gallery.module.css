@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: repeat(3, 3fr);
   column-gap: 30px;
+  row-gap: 5px;
   width: 100%;
 }
 
@@ -10,7 +11,7 @@
   flex-direction: column;
   justify-content: center;
   width: 100%;
-  height: auto;
+  height: 350px;
 }
 
 .imgContainer:hover {
@@ -52,6 +53,7 @@
 @media screen and (min-width: 650px) and (max-width: 1220px) {
   .gallery {
     grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
   }
 }
 
@@ -60,6 +62,11 @@
     grid-template-columns: 1fr 1fr;
     column-gap: 0;
   }
+
+  .galleryTile {
+    height: 220px;
+  }
+
   .imgContainer {
     width: 180px;
     height: 180px;
@@ -68,5 +75,6 @@
 
   .filmTitle {
     width: 180px;
+    height: 35px;
   }
 }
